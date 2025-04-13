@@ -146,7 +146,6 @@ export const mappings = {
 // Inform them that the company will reach out soon with feedback.
 // End the conversation on a polite and positive note.
 
-
 // - Be sure to be professional and polite.
 // - Keep all your responses short and simple. Use official language, but be kind and welcoming.
 // - This is a voice conversation, so keep your responses short, like in a real conversation. Don't ramble for too long.`,
@@ -228,3 +227,10 @@ export const dummyInterviews: Interview[] = [
     createdAt: "2024-03-14T15:30:00Z",
   },
 ];
+
+// Defined somewhere like constants.ts
+export const CallStatus = {
+  ACTIVE: "ACTIVE",
+  FINISHED: "FINISHED",
+  INACTIVE: "INACTIVE",
+} as const;
