@@ -48,7 +48,7 @@ const Page = async () => {
           ) : (
             <div className="flex flex-col gap-4">
               <p className="text-lg">You have no past interviews</p>
-              <Link href="/interview" className="btn-primary">
+              <Link href="/Interview" className="btn-primary">
                 Start an interview
               </Link>
             </div>
