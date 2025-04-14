@@ -252,7 +252,7 @@
     }
 
     .btn {
-      @apply !w-full !bg-primary-200 !text-dark-100 hover:!bg-primary-200/80 rounded-full !min-h-10 !font-bold !px-5 cursor-pointer;
+      @apply !w-full !bg-primary-100 !text-dark-100 hover:!bg-primary-200/80 rounded-full !min-h-10 !font-bold !px-5 cursor-pointer;
     }
   }
 
