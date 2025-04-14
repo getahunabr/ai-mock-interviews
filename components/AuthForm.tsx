@@ -124,7 +124,7 @@ const AuthForm = ({ type }: { type: FormType }) => {
               placeholder="Enter your password"
               type="password"
             />
-            <Button type="submit" className="btn">
+            <Button type="submit" className="btn-primary">
               {isSignIn ? "sign in" : "Create An Account"}
             </Button>
           </form>
