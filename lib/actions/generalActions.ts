@@ -7,6 +7,10 @@ import { generateObject } from "ai";
 export async function getInterviewByUserId(
   userId: string
 ): Promise<Interview[] | null> {
+  if (!userId) {
+    throw new Error("User ID is undefined. Cannot fetch interviews.");
+  }
+
   const interviews = await db
     .collection("interviews")
     .where("userId", "==", userId)
