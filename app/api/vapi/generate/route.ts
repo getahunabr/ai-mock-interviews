@@ -46,3 +46,19 @@ export async function POST(request: Request) {
     return Response.json({ success: false, error }, { status: 500 });
   }
 }
+
+// Step 1 — Extract fields from request body
+// Step 2 — Generate Interview Questions with Gemin
+// Step 3 — Build interview object
+// Step 4 — Save to Firestore
+// Step 5 — Return success
+
+// Accepts interview config (role, level, type, tech stack)
+
+// Uses Gemini 2.0 Flash to generate the interview questions
+
+// Converts Gemini’s output into an array
+
+// Stores everything in Firestore
+
+// Returns { success: true }
